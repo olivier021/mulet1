@@ -1,0 +1,73 @@
+
+<script>
+	function checkIfeven(x){return number(n)%2
+	}
+	var n=prompt ('entre any number')
+	var remainder =n%2
+	 if (remainder==0){ console.log = 'entre any number'}	
+
+else {console.log ('the number entered is odd')}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function randomInsult ()
+
+{
+	var bodyPart = ["face", "foot", "nose", "hand", "head"];
+var adjective = ["hairy and", "extremely", "insultingly", "astonishingly"];
+var adjectiveTwo = ["stupid", "gigantic", "fat", "horrid", "scary"];
+var animal = ["baboon", "sasquatch", "sloth", "naked cat", "warthog"];
+// var randomInsult = (function() {
+  
+  var bp, a, a2, an;
+  var bp = bodyPart[Math.floor(Math.random() * 5)];
+  var a = adjective[Math.floor(Math.random() * 4)];
+  var a2 = adjectiveTwo[Math.floor(Math.random() * 5)];
+  var an = animal[Math.floor(Math.random() * 5)];
+  var insult = "Your" + " " + bp + " " + "is more" + " " + a + " " + a2 + " " + "than a" + " " + an + "'s" + " " + bp + ".";
+  
+return insult
+
+}
+console.log(randomInsult())
+
+
+
+
+
+var insertDash =(number) => {
+    var insertDash = '';
+
+    for (var i = 0; i < number.length; i++) {
+
+        if (number[i] % 2 === 0 && number[i + 1] % 2 === 0) {
+	            insertDash += number[i]+'-' //'{025468[i]-}' ;
+        }
+       else{
+       	insertDash += number[i]
+       } 
+
+    }
+    return insertDash;
+}
+console.log(insertDash('025468')); //0-254-6-8
+
+
+
+
+
+
+
+
+</script>

@@ -1,0 +1,54 @@
+<script >
+	
+var add = function(a, b) {
+  return a + b;
+};
+console.log(add(10, 2)); 
+
+
+
+
+var add = (a, b) => {
+  return a + b;
+};
+console.log(add(33, 4));
+
+
+
+var add = (a, b) => {
+  return a + b;
+};
+console.log(add(33, 4));
+
+
+var sayhi = () => {console.log ('hi hichers')}
+
+
+
+function Car() {
+  this.tyres = 4; 
+  this.windows = 6;
+  this.turnLeft = function() {
+    console.log("turning left ...");
+  };
+  this.turnRight = function() {
+    console.log("turning right ...");
+  };
+}
+
+var myCar = new Car(); 
+console.log("myCar.tyres"); 
+myCar.turnLeft(); 
+
+
+
+var myCar = new Car('sedan')
+console.log('My car has '+myCar.tyres+ '  tyres'+' and '+ myCar.windows+' windows.') console.log(myCar.getCarType())
+var yourCar = new Car('convertible', 1)
+console.log('My car has '+myCar.tyres+ '  tyres'+' and '+ myCar.windows+' windows.') console.log(myCar.getCarType())
+
+
+
+  
+</script>
+

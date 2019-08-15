@@ -1,0 +1,30 @@
+<script >
+	
+var makeplurals = (listofthings) =>{
+var plurals = [];
+for (var i=0 ;i<listofthings.length; i++)
+	{
+		var plural= listofthings[i]+ "s";
+plurals.push(plural)
+}
+
+ return plurals
+
+
+}
+var list = ["banane", "eleve" ,"fille","bombo" , "maman"]
+var newlist = makeplurals(list);
+console.log(newlist);
+var readArray = (array) => {
+	for (var  i=0; i< array.length; i++){
+	console.log (array[i]);}
+}
+
+
+
+
+
+
+
+
+</script>

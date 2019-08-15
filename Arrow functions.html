@@ -1,0 +1,49 @@
+<script >
+	
+
+
+</script>
+
+
+class Car{
+  constructor(type, windows=6){//setting 6 as the default number of windows
+    this.tyres = 4
+    this.windows = windows
+    this.type = type
+  }
+  turnRight(){
+    return 'turning right.'
+  }
+  moveFoward(){
+    return 'moving forward'
+  }
+  getCarType(){
+    return 'I own a very nice '+this.type+ '.'
+  }
+}
+var myCar = new Car('sedan')
+console.log('My car has '+myCar.tyres+ '  tyres'+' and '+ myCar.windows+' windows.') console.log(myCar.getCarType())
+var yourCar = new Car('convertible', 1)
+console.log('My car has '+myCar.tyres+ '  tyres'+' and '+ myCar.windows+' windows.') console.log(myCar.getCarType())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
